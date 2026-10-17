@@ -1,0 +1,306 @@
+{
+  "summary": {
+    "timestamp_utc": "20261017_074705",
+    "git_commit": "1bb7449e4da4ec666882d16c4c4c26c3da9955e4",
+    "tag": "ablation_Variant_C_compound",
+    "path_a": "C:\\Users\\KARAN singh\\Desktop\\hyde_ai_hackathon\\my_team\\agent.py",
+    "path_b": "C:\\Users\\KARAN singh\\Desktop\\hyde_ai_hackathon\\examples\\f_agent.py",
+    "total_games": 10,
+    "wins_a": 5,
+    "wins_b": 5,
+    "draws": 0,
+    "win_rate_a": 0.5,
+    "ci95_normal": 0.3099,
+    "ci95_wilson_lower": 0.2366,
+    "ci95_wilson_upper": 0.7634,
+    "win_rate_a_as_seat_0": 0.4,
+    "win_rate_a_as_seat_1": 0.6,
+    "mean_turns": 76.6,
+    "agent_a_mean_cpu_ms": 371.88,
+    "agent_a_worst_cpu_ms": 640.62,
+    "agent_a_cpu_per_decision_ms": 6.271,
+    "agent_a_p95_decision_ms": 9.659,
+    "agent_a_max_decision_ms": 9.659,
+    "agent_a_total_decisions": 593,
+    "agent_a_games_over_budget": 0,
+    "agent_a_random_moves_after_cap": 0,
+    "agent_a_errors": 0,
+    "agent_a_timeouts": 0,
+    "agent_a_crashes": 0,
+    "agent_a_load_time_s": 0.015000000001236913,
+    "agent_b_load_time_s": 0.0,
+    "total_wall_clock_s": 10.76
+  },
+  "game_records": [
+    {
+      "game": 0,
+      "board_seed": 990000,
+      "a_first": true,
+      "winner": "a",
+      "turns": 54,
+      "a": {
+        "cpu_s": 0.203125,
+        "wall_s": 0.235,
+        "decisions": 48,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.1875,
+        "wall_s": 0.203,
+        "decisions": 42,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 1,
+      "board_seed": 990000,
+      "a_first": false,
+      "winner": "a",
+      "turns": 83,
+      "a": {
+        "cpu_s": 0.46875,
+        "wall_s": 0.484,
+        "decisions": 59,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.421875,
+        "wall_s": 0.437,
+        "decisions": 78,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 2,
+      "board_seed": 990001,
+      "a_first": true,
+      "winner": "b",
+      "turns": 72,
+      "a": {
+        "cpu_s": 0.171875,
+        "wall_s": 0.218,
+        "decisions": 55,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.296875,
+        "wall_s": 0.329,
+        "decisions": 66,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 3,
+      "board_seed": 990001,
+      "a_first": false,
+      "winner": "b",
+      "turns": 83,
+      "a": {
+        "cpu_s": 0.390625,
+        "wall_s": 0.407,
+        "decisions": 52,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.609375,
+        "wall_s": 0.717,
+        "decisions": 76,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 4,
+      "board_seed": 990002,
+      "a_first": true,
+      "winner": "a",
+      "turns": 83,
+      "a": {
+        "cpu_s": 0.390625,
+        "wall_s": 0.47,
+        "decisions": 67,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.34375,
+        "wall_s": 0.404,
+        "decisions": 64,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 5,
+      "board_seed": 990002,
+      "a_first": false,
+      "winner": "b",
+      "turns": 89,
+      "a": {
+        "cpu_s": 0.390625,
+        "wall_s": 0.436,
+        "decisions": 54,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.46875,
+        "wall_s": 0.487,
+        "decisions": 63,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 6,
+      "board_seed": 990003,
+      "a_first": true,
+      "winner": "b",
+      "turns": 73,
+      "a": {
+        "cpu_s": 0.390625,
+        "wall_s": 0.56,
+        "decisions": 73,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.546875,
+        "wall_s": 0.44,
+        "decisions": 67,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 7,
+      "board_seed": 990003,
+      "a_first": false,
+      "winner": "a",
+      "turns": 87,
+      "a": {
+        "cpu_s": 0.640625,
+        "wall_s": 0.811,
+        "decisions": 107,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.421875,
+        "wall_s": 0.549,
+        "decisions": 73,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 8,
+      "board_seed": 990004,
+      "a_first": true,
+      "winner": "b",
+      "turns": 53,
+      "a": {
+        "cpu_s": 0.140625,
+        "wall_s": 0.141,
+        "decisions": 23,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.28125,
+        "wall_s": 0.311,
+        "decisions": 47,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "game": 9,
+      "board_seed": 990004,
+      "a_first": false,
+      "winner": "a",
+      "turns": 89,
+      "a": {
+        "cpu_s": 0.53125,
+        "wall_s": 0.56,
+        "decisions": 55,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "cpu_s": 0.453125,
+        "wall_s": 0.581,
+        "decisions": 72,
+        "over": null,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    }
+  ]
+}

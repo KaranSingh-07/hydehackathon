@@ -1,0 +1,21 @@
+{
+  "trials_sampled": 40,
+  "mean_candidate_actions": 13.47,
+  "metrics_ms": {
+    "sample_world_mean": 0.0889,
+    "world_copy_mean_per_action": 0.0527,
+    "execute_mean_per_action": 0.0325,
+    "value_fn_total_mean_per_action": 0.0965,
+    "breakdown_value_fn": {
+      "reachability_features_ms": 0.0227,
+      "production_features_ms": 0.0109,
+      "buildable_nodes_calc_ms": 0.0016,
+      "hand_features_ms": 0.0103
+    }
+  },
+  "per_action_distribution_pct": {
+    "world_copy_pct": 29.0,
+    "execute_pct": 17.89,
+    "value_eval_pct": 53.11
+  }
+}

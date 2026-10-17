@@ -1,0 +1,22 @@
+=======================================================
+ CATAN AGENT SUBMISSION MANIFEST
+ Archive: my_team.zip
+ Created: 2026-10-17 08:27:36 UTC
+ Git Commit: 1bb7449e4da4ec666882d16c4c4c26c3da9955e4
+ Contract: Agent(obs, playable_actions) -> int
+=======================================================
+
+INCLUDED FILES & CHECKSUMS (SHA-256):
+  agent.py                              3100 B  sha256:b3ca07b02e160973...
+  core/action_prioritizer.py            2901 B  sha256:64db934bbaa2cac9...
+  evaluation/evaluator.py               8512 B  sha256:4f009fc5fe8f842c...
+  evaluation/features.py                8669 B  sha256:b12121d29e8077eb...
+  search/budget_manager.py              4028 B  sha256:8311a3edc03c3763...
+  search/selective_search.py            7630 B  sha256:54a8656e345e58e6...
+
+ARCHIVE SUMMARY:
+  Total Files: 6
+  Archive Size: 12,326 bytes (12.04 KB)
+  Archive SHA-256: d6590d67b9a00eef887a41107a08505a2914fece4f285a21c6b08d68179bd773
+  Target Limit: 100 MB (Submission is < 0.1% of limit)
+=======================================================

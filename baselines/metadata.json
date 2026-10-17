@@ -1,0 +1,11 @@
+{
+  "baseline_name": "bot_f_reference",
+  "source_file": "examples/f_agent.py",
+  "git_commit": "1bb7449e4da4ec666882d16c4c4c26c3da9955e4",
+  "commit_date": "2026-10-17T11:26:43+05:30",
+  "commit_author": "Ayush Dutta <ayush.vaultx7@gmail.com>",
+  "python_version": "3.11.15",
+  "catanatron_version": "3.3.0",
+  "catanatron_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "description": "Preserved baseline snapshot of the official reference Bot F, used as anchor for win rate and timing benchmarks."
+}
